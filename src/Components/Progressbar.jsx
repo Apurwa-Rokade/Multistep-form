@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function Progressbar({progress}) {
+function Progressbar({ progress }) {
   return (
     <div className="progressBar">
-    <div className="progress" style={{ width: `${progress}%` }}></div>
-  </div>
-  )
+      <div className="progress" style={{ width: `${progress}%` }}></div>
+    </div>
+  );
 }
 
-export default Progressbar
+export default Progressbar;

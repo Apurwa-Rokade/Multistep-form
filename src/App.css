@@ -57,10 +57,10 @@
   transition: transform 0.3s ease;
 }
 
-.tabs li.active:before, .tabs li[aria-selected="true"]:before {
+.tabs li.active:before,
+.tabs li[aria-selected="true"]:before {
   transform: scaleX(1);
 }
-
 
 /* CSS for the pogressbar */
 .progressBar {
@@ -73,7 +73,6 @@
   height: 10px;
   background-color: #007bff;
 }
-
 
 /* form */
 .form {
@@ -88,7 +87,7 @@
 
 .form-field {
   margin-bottom: 15px;
-  max-width :800px;
+  max-width: 800px;
 }
 
 .error-message {
